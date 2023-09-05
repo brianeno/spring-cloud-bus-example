@@ -22,6 +22,9 @@ localhost:8081/msg
 
 ## On client call
 
+(POST) localhost:8080/actuator/refresh
+
+### or on specific instance hit
 (POST) localhost:8080/actuator/busrefresh
 
 (POST) localhost:8081/actuator/busrefresh
