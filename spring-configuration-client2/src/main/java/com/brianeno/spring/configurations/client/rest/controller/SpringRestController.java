@@ -1,4 +1,4 @@
-package com.roytuts.spring.dynamic.runtime.configurations.client.rest.controller;
+package com.brianeno.spring.configurations.client.rest.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;

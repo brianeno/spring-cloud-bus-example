@@ -1,13 +1,13 @@
-package com.roytuts.spring.dynamic.runtime.configurations.client;
+package com.brianeno.spring.configurations.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringDynamicRuntimeConfigClientApp {
+public class SpringConfigClientApp2 {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringDynamicRuntimeConfigClientApp.class, args);
+		SpringApplication.run(SpringConfigClientApp2.class, args);
 	}
 
 }

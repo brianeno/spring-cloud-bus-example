@@ -1,4 +1,4 @@
-package com.roytuts.spring.dynamic.runtime.configurations.client.rest.controller;
+package com.brianeno.spring.configurations.client.rest.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -14,7 +14,7 @@ public class SpringRestController {
 	@Value("${msg:Hey}")
 	private String msg;
 
-	@GetMapping("/msg2")
+	@GetMapping("/msg")
 	public ResponseEntity<String> greeting() {
 		return new ResponseEntity<String>(msg, HttpStatus.OK);
 	}
