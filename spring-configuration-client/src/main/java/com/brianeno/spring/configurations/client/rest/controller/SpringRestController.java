@@ -11,12 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringRestController {
 
-    @Value("${msg:Hey}")
+    @Value("${greeting:Hey}")
     private String msg;
 
-    @GetMapping("/msg")
+    @GetMapping("/greeting")
     public ResponseEntity<String> greeting() {
-        return new ResponseEntity<String>(msg, HttpStatus.OK);
+        return new ResponseEntity<>(msg, HttpStatus.OK);
     }
-
 }

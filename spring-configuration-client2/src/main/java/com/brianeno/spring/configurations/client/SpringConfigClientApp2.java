@@ -9,5 +9,4 @@ public class SpringConfigClientApp2 {
     public static void main(String[] args) {
         SpringApplication.run(SpringConfigClientApp2.class, args);
     }
-
 }
